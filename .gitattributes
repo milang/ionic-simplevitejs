@@ -1,0 +1,20 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+
+# Text files that should be normalized (convert crlf => lf)
+.gitignore    text
+.gitattr*     text
+*.config      text
+*.css         text
+*.html        text diff=html
+*.js          text
+*.jsx         text
+*.json        text
+*.jsonc       text
+*.md          text diff=markdown
+*.ts          text
+*.tsx         text
+
+# Text files with forced lf
+package.json  text eol=lf
+yarn.lock     text eol=lf
