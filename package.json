@@ -2,14 +2,10 @@
   "name": "ionic-simplevitejs",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
+    "dev": "vite",
     "serve": "vite preview",
     "test": "jest"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -17,14 +13,16 @@
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
     "@ionic/react": "^6.0.0-rc.3",
-    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
-    "@types/react": "^17.0.35",
+    "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "@vitejs/plugin-react": "^1.0.9",
+    "@vitejs/plugin-react": "^1.1.0",
     "babel-jest": "^27.3.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "typescript": "^4.5.2",
     "vite": "^2.6.14"
   },
@@ -41,10 +39,9 @@
     ]
   },
   "jest": {
-    "testEnvironment": "jsdom",
-    "transformIgnorePatterns": ["/node_modules/(?!@ionic/vue|@ionic/vue-router|@ionic/core|@stencil/core|ionicons)"],
     "moduleNameMapper": {
       "\\.css$": "identity-obj-proxy"
-    }
+    },
+    "transformIgnorePatterns": ["/node_modules/(?!@ionic/vue|@ionic/vue-router|@ionic/core|@stencil/core|ionicons)"]
   }
 }
