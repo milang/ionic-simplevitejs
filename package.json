@@ -26,22 +26,15 @@
     "typescript": "^4.5.2",
     "vite": "^2.6.14"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      [
-        "@babel/preset-react",
-        {
-          "runtime": "automatic"
-        }
-      ],
-      "@babel/preset-typescript"
-    ]
+  "browserslist": {
+    "test": "current node"
   },
   "jest": {
     "moduleNameMapper": {
       "\\.css$": "identity-obj-proxy"
     },
-    "transformIgnorePatterns": ["/node_modules/(?!@ionic/vue|@ionic/vue-router|@ionic/core|@stencil/core|ionicons)"]
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@ionic/core|@stencil/core|ionicons)"
+    ]
   }
 }
