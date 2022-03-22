@@ -1,8 +1,16 @@
 {
-    "cSpell.words": [
-        "ionicons",
-        "simplevitejs",
-        "vite",
-        "vitejs"
-    ]
+  "cSpell.words": [
+    "browserslist",
+    "ionicons",
+    "simplevitejs",
+    "vite",
+    "vitejs"
+  ],
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
