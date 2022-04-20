@@ -4,6 +4,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
+    "format": "prettier --ignore-path .gitignore --check .",
     "serve": "vite preview",
     "test": "jest"
   },
@@ -36,5 +37,9 @@
     "transformIgnorePatterns": [
       "/node_modules/(?!@ionic/core|@stencil/core|ionicons)"
     ]
+  },
+  "prettier": {
+    "quoteProps": "preserve",
+    "trailingComma": "none"
   }
 }

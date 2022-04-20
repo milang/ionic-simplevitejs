@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "clinyong.vscode-css-modules",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
