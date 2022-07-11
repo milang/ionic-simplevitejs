@@ -14,17 +14,15 @@ import "@ionic/react/css/display.css";
 
 import { setupIonicReact } from "@ionic/react";
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 
 import { App } from "./App";
 
 // initialize Ionic app
 setupIonicReact();
-const root = document.getElementById("root");
-if (root) {
-  ReactDOM.createRoot(root).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
