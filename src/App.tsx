@@ -7,6 +7,7 @@ import {
   IonTitle,
   IonToolbar
 } from "@ionic/react";
+import { useCallback } from "react";
 
 function HelloWorld(props: { one: number }): JSX.Element {
   return (
@@ -27,10 +28,13 @@ function HelloWorld(props: { one: number }): JSX.Element {
 }
 
 export function App(): JSX.Element {
+  const helloWorld1 = useCallback(() => <HelloWorld one={1} />, []);
+
   return (
     <IonApp>
       <IonPage>
-        <IonNav root={HelloWorld} rootParams={{ one: 1 }} />
+        <IonNav root={helloWorld1} />
+        {/* <IonNav root={HelloWorld} rootParams={{ one: 1 }} /> */}
         {/* <HelloWorld one={-1} /> */}
       </IonPage>
     </IonApp>
