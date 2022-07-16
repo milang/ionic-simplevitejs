@@ -472,28 +472,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/core@npm:^6.1.14":
-  version: 6.1.14
-  resolution: "@ionic/core@npm:6.1.14"
+"@ionic/core@npm:6.1.15-dev.11657908598.17be2d80":
+  version: 6.1.15-dev.11657908598.17be2d80
+  resolution: "@ionic/core@npm:6.1.15-dev.11657908598.17be2d80"
   dependencies:
     "@stencil/core": ^2.16.0
     ionicons: ^6.0.2
     tslib: ^2.1.0
-  checksum: a6efa7b42722cf5513eff041f3f573377cec4ea7aace91da8836cc3eb2da377afa2c95267d583e06e02a71cd49fbcaacd0c4ca7c47a3fa8e64e664a5d4fef4b6
+  checksum: c7d4fb06c543b67563f7db8a5426614745fed55f1c96a4b45149ce45d1761f4e6c5498f559d0f1cc2cb1e218a9c531c9cef6595284081d05e30c52a41fbab6d6
   languageName: node
   linkType: hard
 
-"@ionic/react@npm:^6.1.14":
-  version: 6.1.14
-  resolution: "@ionic/react@npm:6.1.14"
+"@ionic/react@npm:6.1.15-dev.11657908598.17be2d80":
+  version: 6.1.15-dev.11657908598.17be2d80
+  resolution: "@ionic/react@npm:6.1.15-dev.11657908598.17be2d80"
   dependencies:
-    "@ionic/core": ^6.1.14
+    "@ionic/core": 6.1.15-dev.11657908598.17be2d80
     ionicons: ^6.0.2
     tslib: "*"
   peerDependencies:
     react: ">=16.8.6"
     react-dom: ">=16.8.6"
-  checksum: 52bc5ab58eb8cc12e1fe1b79695b3dbbaf890cc8139b649968de68f7a7244a69a497a237205b1bb6fe32ac1505c29142d8dd5034b7d857f407a1d1ab86c0c715
+  checksum: 638b883e54c20add4685b070ff5c0347f016cde4800a33c7490b1df5aace8100f40679b326f777cec73f2e0952104174ad6c90bf73e903ed2f555b8833bb9768
   languageName: node
   linkType: hard
 
@@ -2738,7 +2738,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ionic-simplevitejs@workspace:."
   dependencies:
-    "@ionic/react": ^6.1.14
+    "@ionic/react": 6.1.15-dev.11657908598.17be2d80
     "@swc/core": ^1.2.215
     "@swc/jest": ^0.2.21
     "@testing-library/jest-dom": ^5.16.4

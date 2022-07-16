@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@ionic/react": "^6.1.14",
+    "@ionic/react": "6.1.15-dev.11657908598.17be2d80",
     "@swc/core": "^1.2.215",
     "@swc/jest": "^0.2.21",
     "@testing-library/jest-dom": "^5.16.4",
