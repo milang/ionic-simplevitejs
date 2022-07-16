@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom"; // eslint-disable-line import/no-unassigned-import
 
 import { render } from "@testing-library/react";
 
