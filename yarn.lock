@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@adobe/css-tools@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@adobe/css-tools@npm:4.0.1"
+  checksum: 80226e2229024c21da9ffa6b5cd4a34b931f071e06f45aba4777ade071d7a6c94605cf73b13718b0c4b34e8b124c65c607b82eaa53a326d3eb73d9682a04a593
+  languageName: node
+  linkType: hard
+
 "@ampproject/remapping@npm:^2.1.0":
   version: 2.1.2
   resolution: "@ampproject/remapping@npm:2.1.2"
@@ -472,28 +479,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/core@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@ionic/core@npm:6.2.0"
+"@ionic/core@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@ionic/core@npm:6.2.1"
   dependencies:
     "@stencil/core": ^2.16.0
     ionicons: ^6.0.2
     tslib: ^2.1.0
-  checksum: 1abf62ca9e9aca9000b7aac2c71a97ba464114fe9a41c4bf9708baf53331b754d4fb555ef3bf28b9814f1c4303f78949cda91a75ad8701e8c33092ff0addff80
+  checksum: 8e1f7e6d29a02403d9a8382463a124631e89f747911ca40fe95510940363ba24ea47776a13af09c6fb88b2a92193e4f562bb7713172e25d9b30d0b024df7ffc9
   languageName: node
   linkType: hard
 
-"@ionic/react@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@ionic/react@npm:6.2.0"
+"@ionic/react@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@ionic/react@npm:6.2.1"
   dependencies:
-    "@ionic/core": ^6.2.0
+    "@ionic/core": ^6.2.1
     ionicons: ^6.0.2
     tslib: "*"
   peerDependencies:
     react: ">=16.8.6"
     react-dom: ">=16.8.6"
-  checksum: b03f0773af3740ecc27f99c6158bb0acc5c02d9fdc8902ffcd4d353e4fdea0dedffe3a0ec1fa051f8bf1db9f653baf52891863ee3d74379d2af94a757dbed713
+  checksum: b46f289c6bb7e280f4db501ba81e6a849c90b01fe6ea6e8277b83bf100aef0c7a5360db3e3d151dcf94901872db3bcfe812cce46a4d0c11fb84fc552392ccd7a
   languageName: node
   linkType: hard
 
@@ -875,114 +882,126 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm-eabi@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-android-arm-eabi@npm:1.2.219"
+"@swc/core-android-arm-eabi@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.122
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm64@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-android-arm64@npm:1.2.219"
+"@swc/core-android-arm64@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-android-arm64@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.130
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-darwin-arm64@npm:1.2.219"
+"@swc/core-darwin-arm64@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-darwin-arm64@npm:1.2.223"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-darwin-x64@npm:1.2.219"
+"@swc/core-darwin-x64@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-darwin-x64@npm:1.2.223"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-freebsd-x64@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-freebsd-x64@npm:1.2.219"
+"@swc/core-freebsd-x64@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-freebsd-x64@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.130
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.219"
+"@swc/core-linux-arm-gnueabihf@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.130
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.219"
+"@swc/core-linux-arm64-gnu@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.223"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-linux-arm64-musl@npm:1.2.219"
+"@swc/core-linux-arm64-musl@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.223"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-linux-x64-gnu@npm:1.2.219"
+"@swc/core-linux-x64-gnu@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.223"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-linux-x64-musl@npm:1.2.219"
+"@swc/core-linux-x64-musl@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.223"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.219"
+"@swc/core-win32-arm64-msvc@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.130
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.219"
+"@swc/core-win32-ia32-msvc@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.223"
+  dependencies:
+    "@swc/wasm": 1.2.130
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core-win32-x64-msvc@npm:1.2.219"
+"@swc/core-win32-x64-msvc@npm:1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.223"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:^1.2.219":
-  version: 1.2.219
-  resolution: "@swc/core@npm:1.2.219"
+"@swc/core@npm:^1.2.223":
+  version: 1.2.223
+  resolution: "@swc/core@npm:1.2.223"
   dependencies:
-    "@swc/core-android-arm-eabi": 1.2.219
-    "@swc/core-android-arm64": 1.2.219
-    "@swc/core-darwin-arm64": 1.2.219
-    "@swc/core-darwin-x64": 1.2.219
-    "@swc/core-freebsd-x64": 1.2.219
-    "@swc/core-linux-arm-gnueabihf": 1.2.219
-    "@swc/core-linux-arm64-gnu": 1.2.219
-    "@swc/core-linux-arm64-musl": 1.2.219
-    "@swc/core-linux-x64-gnu": 1.2.219
-    "@swc/core-linux-x64-musl": 1.2.219
-    "@swc/core-win32-arm64-msvc": 1.2.219
-    "@swc/core-win32-ia32-msvc": 1.2.219
-    "@swc/core-win32-x64-msvc": 1.2.219
+    "@swc/core-android-arm-eabi": 1.2.223
+    "@swc/core-android-arm64": 1.2.223
+    "@swc/core-darwin-arm64": 1.2.223
+    "@swc/core-darwin-x64": 1.2.223
+    "@swc/core-freebsd-x64": 1.2.223
+    "@swc/core-linux-arm-gnueabihf": 1.2.223
+    "@swc/core-linux-arm64-gnu": 1.2.223
+    "@swc/core-linux-arm64-musl": 1.2.223
+    "@swc/core-linux-x64-gnu": 1.2.223
+    "@swc/core-linux-x64-musl": 1.2.223
+    "@swc/core-win32-arm64-msvc": 1.2.223
+    "@swc/core-win32-ia32-msvc": 1.2.223
+    "@swc/core-win32-x64-msvc": 1.2.223
   dependenciesMeta:
     "@swc/core-android-arm-eabi":
       optional: true
@@ -1012,7 +1031,7 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 06c598b9b9a71d1a9cefd305bd7e2e4e8b01437f7ab9502cfcde9b73a4928d68ea5b8846f7a834a4481df4958c9de874c549ddcf20840bb5dce7241fbf32433a
+  checksum: 4824f3ab6a768f46d64d67939856310b96df933ee0a178721ec92671df4d79e0a3dd7bf78276d106d49c83253e1c11a3933190484ac71c74a948867cf92cb58e
   languageName: node
   linkType: hard
 
@@ -1024,6 +1043,20 @@ __metadata:
   peerDependencies:
     "@swc/core": "*"
   checksum: c624cfcc9325a719fc7d811536011c4bde0c63c808827b47d7bbcc57621323146cb3891d8702fd01c1bebfc54a9148692f772af4db8e839eb2c6ccd7850fa5f5
+  languageName: node
+  linkType: hard
+
+"@swc/wasm@npm:1.2.122":
+  version: 1.2.122
+  resolution: "@swc/wasm@npm:1.2.122"
+  checksum: 563345370c5ad18373d3b403590ab880fe52dcd8fc8c8601be263fcd9886520b28a7f4e46236cf49ca2b136c79d4ef50c960bc34b7cdc2068118b0d84dfca1f4
+  languageName: node
+  linkType: hard
+
+"@swc/wasm@npm:1.2.130":
+  version: 1.2.130
+  resolution: "@swc/wasm@npm:1.2.130"
+  checksum: 02203bfef3e382c64cbbd63c138c8fdf61865e74d923b317e9d9e9f33f5a3f0a9533b5fdbc9505e76d78e864be04a82fc847eb987a1e47ccac5850146c858292
   languageName: node
   linkType: hard
 
@@ -1043,20 +1076,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.16.4":
-  version: 5.16.4
-  resolution: "@testing-library/jest-dom@npm:5.16.4"
+"@testing-library/jest-dom@npm:^5.16.5":
+  version: 5.16.5
+  resolution: "@testing-library/jest-dom@npm:5.16.5"
   dependencies:
+    "@adobe/css-tools": ^4.0.1
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
     aria-query: ^5.0.0
     chalk: ^3.0.0
-    css: ^3.0.0
     css.escape: ^1.5.1
     dom-accessibility-api: ^0.5.6
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: 4240501223b72b97a44d4e3c669f39b208c49fb645d11d08d5f178d607265c5dfad07efbe027f41a0e2458178ff1fd5bf437fc05661b9109dcd013b95a37079e
+  checksum: 94911f901a8031f3e489d04ac057cb5373621230f5d92bed80e514e24b069fb58a3166d1dd86963e55f078a1bd999da595e2ab96ed95f452d477e272937d792a
   languageName: node
   linkType: hard
 
@@ -1474,15 +1507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"atob@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "atob@npm:2.1.2"
-  bin:
-    atob: bin/atob.js
-  checksum: dfeeeb70090c5ebea7be4b9f787f866686c645d9f39a0d184c817252d0cf08455ed25267d79c03254d3be1f03ac399992a792edcd5ffb9c91e097ab5ef42833a
-  languageName: node
-  linkType: hard
-
 "babel-jest@npm:^28.1.3":
   version: 28.1.3
   resolution: "babel-jest@npm:28.1.3"
@@ -1867,17 +1891,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "css@npm:3.0.0"
-  dependencies:
-    inherits: ^2.0.4
-    source-map: ^0.6.1
-    source-map-resolve: ^0.6.0
-  checksum: 4273ac816ddf99b99acb9c1d1a27d86d266a533cc01118369d941d8e8a78277a83cad3315e267a398c509d930fbb86504e193ea1ebc620a4a4212e06fe76e8be
-  languageName: node
-  linkType: hard
-
 "cssom@npm:^0.5.0":
   version: 0.5.0
   resolution: "cssom@npm:0.5.0"
@@ -1935,13 +1948,6 @@ __metadata:
   version: 10.3.1
   resolution: "decimal.js@npm:10.3.1"
   checksum: 0351ac9f05fe050f23227aa6a4573bee2d58fa7378fcf28d969a8c789525032effb488a90320fd3fe86a66e17b4bc507d811b15eada5b7f0e7ec5d2af4c24a59
-  languageName: node
-  linkType: hard
-
-"decode-uri-component@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "decode-uri-component@npm:0.2.0"
-  checksum: f3749344ab9305ffcfe4bfe300e2dbb61fc6359e2b736812100a3b1b6db0a5668cba31a05e4b45d4d63dbf1a18dfa354cd3ca5bb3ededddabb8cd293f4404f94
   languageName: node
   linkType: hard
 
@@ -2727,7 +2733,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inherits@npm:2, inherits@npm:^2.0.3, inherits@npm:^2.0.4":
+"inherits@npm:2, inherits@npm:^2.0.3":
   version: 2.0.4
   resolution: "inherits@npm:2.0.4"
   checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
@@ -2738,10 +2744,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ionic-simplevitejs@workspace:."
   dependencies:
-    "@ionic/react": ^6.2.0
-    "@swc/core": ^1.2.219
+    "@ionic/react": ^6.2.1
+    "@swc/core": ^1.2.223
     "@swc/jest": ^0.2.22
-    "@testing-library/jest-dom": ^5.16.4
+    "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.3.0
     "@types/react": ^18.0.15
     "@types/react-dom": ^18.0.6
@@ -2753,7 +2759,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.7.4
-    vite: ^3.0.3
+    vite: ^3.0.4
   languageName: unknown
   linkType: soft
 
@@ -4394,16 +4400,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-resolve@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "source-map-resolve@npm:0.6.0"
-  dependencies:
-    atob: ^2.1.2
-    decode-uri-component: ^0.2.0
-  checksum: fe503b9e5dac1c54be835282fcfec10879434e7b3ee08a9774f230299c724a8d403484d9531276d1670c87390e0e4d1d3f92b14cca6e4a2445ea3016b786ecd4
-  languageName: node
-  linkType: hard
-
 "source-map-support@npm:0.5.13":
   version: 0.5.13
   resolution: "source-map-support@npm:0.5.13"
@@ -4758,9 +4754,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "vite@npm:3.0.3"
+"vite@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "vite@npm:3.0.4"
   dependencies:
     esbuild: ^0.14.47
     fsevents: ~2.3.2
@@ -4786,7 +4782,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0b15d6bb062ab56dd8a0d47262344dcb48423d658c153c88a8a41f9301a70f32dd0fa2c037fa39a0a7888be1005cb763aad94235f82439441a13cef5103c29c4
+  checksum: f13eceb94f7b399942ce5e7c10df73314f7b073171d6594228b078cc1203042c4cdb9e8356fe64ad444c3533c31437abb3c64ac56478f0865fab598e924cf68b
   languageName: node
   linkType: hard
 
